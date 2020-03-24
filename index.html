@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="has-background-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WinWRLDWide</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/bulma.css" />
+  <script src="/assets/css/semantic.js"></script>
+  <link rel="stylesheet" href="/assets/css/semantic.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/all.css" />
+  <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+  <style type="text/css">
+     body {
+       background-color: #f5f5f5;
+       overflow-x: visible;
+     }
+
+
+     .ui.nav {
+       margin: auto;
+     }
+     .content{
+       padding-left: 60px;
+       padding-right: 60px;
+     }
+
+     .card-deck{
+       bottom-margin: 10px;
+     }
+
+     .segmentcontent{
+       padding-left: 30px;
+       padding-right: 30px;
+        }
+
+    .footer {
+      border-top: 1px solid #DDDDDD;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08) inset;
+      background-color: #FFFFFF;
+      padding-top: 2em;
+  }
+
+
+    .ui.menu {
+      border-radius: 0px !important;
+  }
+  li {
+      list-style-type: none;
+  }
+  .sticky	{
+  	position: sticky;
+    	top: 30px;
+  }
+
+  .navbar-brand,
+  .navbar-tabs {
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    min-height: 3.25rem;
+  }
+
+  .navbar-tabs {
+    -webkit-overflow-scrolling: touch;
+    max-width: 100vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .nav.has-shadow {
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08) inset;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08) inset;
+
+  }
+  .navbar {
+      z-index: 9999;
+  }
+  .ui.vertical.menu {
+      display: block;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+      box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  }
+
+  .ui.menu:first-child {
+      margin-top: 0;
+  }
+  .ui.menu {
+      font-size: 14px;
+  }
+  .ui.menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 1rem 0;
+      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+      font-weight: 400;
+      border: 1px solid rgba(34,36,38,.15);
+      -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+      box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+      border-radius: .28571429rem;
+      min-height: 2.85714286em;
+  }
+  *, :after, :before {
+      -webkit-box-sizing: inherit;
+      box-sizing: inherit;
+  }
+  user agent stylesheet
+  div {
+      display: block;
+  }
+  .ui.segment, .ui.segments .segment {
+      font-size: 1rem;
+  }
+  #example .example {
+      margin: 2em 0em;
+      padding: 2em 0em;
+      position: relative;
+      -webkit-tap-highlight-color: transparent;
+  }
+  body {
+      margin: 0;
+      padding: 0;
+      min-width: 320px;
+      font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+      font-size: 17px;
+      line-height: 1.4285em;
+      color: rgba(0,0,0,.87);
+      font-smoothing: antialiased;
+  }
+
+   </style>
+</head>
+<body>
+  <div id="app">
+
+    <section class="hero is-info is-bold is-small">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item has-text-weight-light">
+            WinWRLDWide
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Home
+            </a>
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Login
+            </a>
+            <span class="navbar-item">
+              <a class="button is-link is-rounded">
+                <span class="icon">
+                  <i class="fal fa-sign-in"></i>
+                </span>
+                <span>Join</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        WinWRLDWide
+      </h1>
+      <h2 class="subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis congue mollis. In vulputate viverra lacus eu hendrerit.
+      </h2>
+      <template>
+        <a href="/catalog.php"><button class="ui  button is-success is-bold is-rounded">
+        <i class="fal fa-shopping-bag"></i> &nbspCatalog
+      </button></a>
+</template>
+    </div>
+  </div>
+  <div class="box cta has-shadow ui stacked segment" style="z-index: 1;">
+      <p class="has-text-centered">
+          <span class="tag is-warning">!</span> Is your computer slow and old click <a href="/light/">here</a> to go to a lightweight version of the website 
+      </p>
+  </div>
+</section>
+
+
+  <section class="section">
+  <div class="container">
+    <div class="columns features has-text-centered">
+    <div class="column is-4" style="z-index: 1;">
+      <div class="ui piled segment">
+    <div class="card-image has-text-centered">
+        <br/>
+        <i class="far fa-globe fa-5x"></i>
+        <h4 class="ui header">Community</h4>
+        <p>Create threads in our community forum!</p>
+    </div>
+  </div>
+    </div>
+    <div class="column is-4" style="z-index: 1;">
+      <div class="ui piled segment">
+    <div class="card-image has-text-centered">
+        <br/>
+        <i class="far fa-shopping-bag fa-5x"></i>
+        <h4 class="ui header">Catalogue</h4>
+        <p>Browse many operating systems and software.</p>
+    </div>
+  </div>
+    </div>
+    <div class="column is-4" style="z-index: 1;">
+      <div class="ui piled segment">
+    <div class="card-image has-text-centered">
+        <br/>
+        <i class="far fa-mouse-pointer fa-5x"></i>
+        <h4 class="ui header">Modern Design</h4>
+        <p>Clean modern design for best user experience.</p>
+    </div>
+  </div>
+    </div>
+</div>
+  </div>
+</section>
+</div>
+<script src="https://unpkg.com/vue"></script>
+  <!-- Full bundle -->
+  <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+
+  <script>
+      new Vue({
+          el: '#app'
+      })
+  </script>
+  <br>
+  <div class="ui footer">
+    <div class="content has-text-centered"> <br><br><br>
+    <p>
+      <strong>WinWRLDWide</strong> <p>Copyright 2020©</p>
+    </p>
+  </div>
+  </div>
+
+</body>
